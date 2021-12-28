@@ -28,10 +28,10 @@ Both sorting and pagination should work together.
 As a result, a new dog should be created.
 
 Please think about the following cases:
-  •	Dog with the same name already exists in DB.
-  •	Tail height is a negative number or is not a number.
-  •	Invalid JSON is passed in a request body.
-  •	Other cases that need to be handled in order for API to work properly.
+  - Dog with the same name already exists in DB.
+  - Tail height is a negative number or is not a number.
+  - Invalid JSON is passed in a request body.
+  - Other cases that need to be handled in order for API to work properly.
   
 4. Please implement logic that handles situations when there are too many incoming requests to the application, so those could not be handled. There should be a setting that says how many requests the service can handle, for example, 10 requests per second. In case there are more incoming requests than in configuration application should return HTTP status code "429 Too Many Requests".
 Here are a few additional requirements for the task:
