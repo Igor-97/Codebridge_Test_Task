@@ -35,8 +35,8 @@ Please think about the following cases:
   
 4. Please implement logic that handles situations when there are too many incoming requests to the application, so those could not be handled. There should be a setting that says how many requests the service can handle, for example, 10 requests per second. In case there are more incoming requests than in configuration application should return HTTP status code "429 Too Many Requests".
 Here are a few additional requirements for the task:
-  •	Use ASP .Net Core Web API.
-  •	Use EF Core code first for the database creation (any database).
-  •	Use async-await where it's possible.
-  •	All logic in the application should be covered by unit tests.
-  •	Please show your knowledge of different software development patterns.
+  - Use ASP .Net Core Web API.
+  - Use EF Core code first for the database creation (any database).
+  - Use async-await where it's possible.
+  - All logic in the application should be covered by unit tests.
+  - Please show your knowledge of different software development patterns.
