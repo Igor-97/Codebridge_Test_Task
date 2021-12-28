@@ -1,9 +1,9 @@
 # Codebridge_Test_Task
 
 A sample REST API using C#. There is an MS SQL database with just one table: select top(2) * from dogs limit 2;
-  name	      color	              tail_length	   weight
-  Neo         red & amber         22	           32		
-  Jessy       black & white	      7	             14
+  - name	      color	              tail_length	   weight
+  - Neo         red & amber         22	           32		
+  - Jessy       black & white	      7	             14
   
 (2 rows)
 
